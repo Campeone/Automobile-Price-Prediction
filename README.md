@@ -6,7 +6,7 @@ This project performs regression analysis to predict the prices of automobiles b
 ## Table of Contents
 1. [Installation](#installation)
 2. [Dataset](#dataset)
-3. [Technologies Used]
+3. [Technologies Used](#technologies-used)
 4. [Project Structure](#project-structure)
 5. [Modeling](#modeling)
 6. [Results](#results)
@@ -32,6 +32,7 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## Technologies Used
 - **Programming Language**: Python
