@@ -1,7 +1,10 @@
 # Automobile Price Prediction using Linear and Lasso Regression
 
 ## Overview
-This project performs regression analysis to predict the prices of automobiles based on various features such as engine size, horsepower, fuel type, and more. The goal is to build a predictive model that can accurately estimate the price of a car using linear and lasso regression techniques. The project demonstrates both multiple regression approaches.
+This project performs regression analysis to predict the prices of automobiles based on various features such as engine size, horsepower, fuel type, and more. The goal is to build a predictive model that can accurately estimate the price of a car using linear and lasso regression techniques. The project demonstrates both multiple regression approaches. 
+
+![Alt text](images/photo_2024-10-09_20-48-42.jpg)
+
 
 ## Table of Contents
 1. [Installation](#installation)
