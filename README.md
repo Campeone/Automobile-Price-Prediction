@@ -6,12 +6,13 @@ This project performs regression analysis to predict the prices of automobiles b
 ## Table of Contents
 1. [Installation](#installation)
 2. [Dataset](#dataset)
-3. [Project Structure](#project-structure)
-4. [Modeling](#modeling)
-5. [Results](#results)
-6. [Usage](#usage)
-7. [Conclusion](#conclusion)
-8. [Contact](#contact)
+3. [Technologies Used]
+4. [Project Structure](#project-structure)
+5. [Modeling](#modeling)
+6. [Results](#results)
+7. [Usage](#usage)
+8. [Conclusion](#conclusion)
+9. [Contact](#contact)
 
 ## Installation
 To replicate this project, clone the repository and install the necessary dependencies.
@@ -31,6 +32,15 @@ Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Technologies Used
+- **Programming Language**: Python
+- **Data Analysis**: Pandas, NumPy
+- **Data Visualization**: Matplotlib, Seaborn
+- **Machine Learning**: Scikit-learn
+- **Development Environment**: Google Colab
+- **Version Control**: Git
+
 
 ## Dataset
 The dataset used in this project contains various features related to automobiles, including:
