@@ -1,7 +1,7 @@
-# Automobile Price Prediction using Linear Regression
+# Automobile Price Prediction using Linear and Lasso Regression
 
 ## Overview
-This project performs regression analysis to predict the prices of automobiles based on various features such as engine size, horsepower, fuel type, and more. The goal is to build a predictive model that can accurately estimate the price of a car using linear regression techniques. The project demonstrates both simple and multiple linear regression approaches.
+This project performs regression analysis to predict the prices of automobiles based on various features such as engine size, horsepower, fuel type, and more. The goal is to build a predictive model that can accurately estimate the price of a car using linear and lasso regression techniques. The project demonstrates both multiple regression approaches.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -40,14 +40,13 @@ The dataset used in this project contains various features related to automobile
 - **Horsepower**: The power of the engine
 - **Price**: The price of the car (target variable)
 
-- **Source**: [Link to dataset if available]
+- **Source**: [https://www.kaggle.com/datasets/toramky/automobile-dataset?resource=download]
 - **Preprocessing**: Handling missing values, encoding categorical variables, and scaling numerical features.
 
 ## Project Structure
 ```
 ├── data/               # Contains the dataset
 ├── notebooks/          # Jupyter notebooks for analysis
-├── src/                # Source code for model training and evaluation
 ├── models/             # Saved machine learning models
 ├── README.md           # Project documentation
 └── requirements.txt    # Dependencies
@@ -60,11 +59,11 @@ The following steps were performed for the regression analysis:
     - Visualization of data distributions and relationships between features.
     - Handling of missing data and outliers.
 
-2. **Simple Linear Regression**:
-    - A model predicting the car price based on a single feature (e.g., engine size).
+2. **Linear Regression**:
+    - A model predicting the car price based on multiple features like engine size, horsepower, fuel type, and more.
 
-3. **Multiple Linear Regression**:
-    - A model incorporating multiple features like engine size, horsepower, fuel type, and more.
+3. **Lasso Regression**:
+    - A model incorporating regularization techniques using multiple features like engine size, horsepower, fuel type, and more.
 
 4. **Model Evaluation**:
     - Evaluation metrics include Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared value.
@@ -73,22 +72,16 @@ The following steps were performed for the regression analysis:
 - Best model: **Multiple Linear Regression**
 - Key findings:
     - Features such as engine size, horsepower, and fuel type have a significant impact on car prices.
-    - The model achieved an R-squared score of [insert value].
+    - The model achieved an R-squared score of [0.85].
 
 - Performance metrics:
-    - **MAE**: [insert value]
-    - **MSE**: [insert value]
-    - **R-squared**: [insert value]
+    - **MAE**: 2366.64
+    - **MSE**: 12326591.13
+    - **R-squared**: 0.82
+    - **RMSE**: 3510.92
 
-Visualizations:
-- Scatter plots showing actual vs predicted prices.
-- Residual plots to analyze errors.
 
 ## Usage
-To make predictions with the trained model, use the following command:
-```bash
-python src/predict.py --input data/new_car_data.csv
-```
 
 Example of predictions:
 ```
@@ -99,14 +92,13 @@ Example of predictions:
 ```
 
 ## Conclusion
-This project demonstrates the use of linear regression to predict automobile prices. The multiple linear regression model provided better results than the simple linear regression model, emphasizing the importance of incorporating multiple features. Future work could include feature engineering, polynomial regression, or incorporating regularization techniques like Ridge or Lasso regression.
+This project demonstrates the use of linear and lasso regression to predict automobile prices. The linear regression model provided better results than the lasso regression model, emphasizing the importance of incorporating multiple features. Future work could include polynomial regression, or incorporating another regularization techniques like Ridge regression.
 
 ## Contact
 For further information, feel free to reach out:
-- **Name**: [Your Name]
-- **Portfolio**: [Link to your portfolio]
-- **Email**: [Your email]
+- **Name**: Ojo Timilehin
+- **Portfolio**: https://ojotimilehin01.wixsite.com/ojotimi
+- **Email**: Ojotimilehin01@gmail.com
 
 ---
 
-You can adapt this README to fit the specific outcomes and results of your project. Would you like to update any part of this template based on more specific details from your notebook?
